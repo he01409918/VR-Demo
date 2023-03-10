@@ -11,10 +11,10 @@ public class Manager : MonoBehaviour
 
     void Update()
     {
-        /*if (InputBridge.Instance.RightTriggerDown)
+        if (Keyboard.current.nKey.wasPressedThisFrame)
         {
             TakePicture();
-        }*/
+        }
     }
 
     private void TakePicture()
