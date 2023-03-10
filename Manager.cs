@@ -11,10 +11,10 @@ public class Manager : MonoBehaviour
 
     void Update()
     {
-        if (InputBridge.Instance.RightTriggerDown)
+        /*if (InputBridge.Instance.RightTriggerDown)
         {
             TakePicture();
-        }
+        }*/
     }
 
     private void TakePicture()
